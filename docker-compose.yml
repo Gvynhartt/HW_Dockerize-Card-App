@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  openjdk:
+    build: .
+    image: db-api
+    ports:
+      - '9999:9999'
